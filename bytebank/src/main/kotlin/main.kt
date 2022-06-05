@@ -1,8 +1,8 @@
 fun main() {
     println("Bem vindo ao bytebank! ${System.lineSeparator()}")
 
-    val conta = Conta("Rafael", 1000)
-    val conta2 = Conta("Jeje", 2000)
+    val conta = Conta(titular = "Rafael", numeroConta = 1000)
+    val conta2 = Conta(numeroConta = 2000, titular = "Jeje", digitoConta = 3)
     conta.deposita(200.0)
 
     println(conta)

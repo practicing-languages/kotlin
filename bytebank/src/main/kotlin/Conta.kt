@@ -1,6 +1,7 @@
 class Conta(
-    var titular: String,
-    var numeroConta: Int
+    val titular: String,
+    val numeroConta: Int,
+    val digitoConta: Int = 9
 ) {
     var saldo = 0.0
         private set
